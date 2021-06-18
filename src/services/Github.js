@@ -11,10 +11,7 @@ export const Github = {
     }
   
     const opened = getIssueState('open');
-    console.log(opened)
-    
     const closed = getIssueState('closed') || 0;
-    console.log(closed);
   
     return {
       opened,
