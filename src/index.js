@@ -19,7 +19,7 @@ export async function start() {
     return;
   };
 
-  const progressDone = Math.floor((closed * 100) / allIssues);
+  const progressDone = Math.floor((opened * 100) / allIssues);
   
   progress.style.width = `${progressDone}%`;
   progress.innerHTML = `${progressDone}%`;
