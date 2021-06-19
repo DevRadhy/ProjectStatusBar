@@ -8,7 +8,7 @@
 
 
 ## Introdução
-**ProjectStatusBar** é um projeto que compara as **issues** abertas e fechadas de um projeto e mostra o quanto do projeto está pronto, o objetivo gerenciar o projeto e mostrar em formato de overlay durante as lives.
+**ProjectStatusBar** é um projeto que compara as **issues** e **pull requests** abertos e fechados de um projeto e mostra o quanto do projeto está pronto, o objetivo é gerenciar o projeto e mostrar em formato de overlay durante as lives.
 
 ## Tecnologias
 Projeto feito usando:
