@@ -7,8 +7,6 @@ const progress = document.querySelector('li');
 export async function start() {
   const { colors, user, repository } = Preferences.get();
   const { opened, closed } = await Github.getIssues(user, repository);
-
-  console.log(opened, closed);
   
   const allIssues = opened + closed;
 
